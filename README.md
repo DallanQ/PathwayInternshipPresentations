@@ -12,4 +12,4 @@ I'll try to create them at least a week ahead of time so people can go over them
 
 * Week 5: Get to know the software behind https://iloveconference.org, and Individual presentations
 
-* Weeks 6-26: To be decided
+* Weeks 6-26: To be determined
