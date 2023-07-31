@@ -6,10 +6,14 @@ I'll try to create them at least a week ahead of time so people can go over them
  
 * Week 1: Install software, learn bash, get familiar with node and python
 
-* Week 2: Git and AI
+* Week 2: Learn Prompt Engineering
 
-* Weeks 3+4: Take courses in Front-end or Back-end development
+* Week 3: AI and Git
 
-* Week 5: Get to know the software behind https://iloveconference.org, and Individual presentations
+* Weeks 4+5: Take courses advancing your skills in Front-end or Back-end development
 
-* Weeks 6-26: To be determined
+* Week 6: Introduction to Frameworks for Front-end or Back-end development
+
+* Week 7: Deeper-dive into Frameworks, and Agile project management methodology
+
+* Weeks 8-26: Work on real-world projects
