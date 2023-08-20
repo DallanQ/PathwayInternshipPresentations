@@ -10,10 +10,20 @@ I'll try to create them at least a week ahead of time so people can go over them
 
 * Week 3: AI and Git
 
-* Weeks 4+5: Take courses advancing your skills in Front-end or Back-end development
+* Week 4: Take courses and work on kata's to advance your skills in Front-end or Back-end development
 
-* Week 6: Introduction to Frameworks for Front-end or Back-end development
+* Week 5: Continue courses and kata's to advance your skills in Front-end or Back-end development
 
-* Week 7: Deeper-dive into Frameworks, and Agile project management methodology
+* Week 6: Introduction to Frameworks for Front-end or Back-end development (*under construction*)
 
-* Weeks 8-26: Work on real-world projects
+* Week 7: Deep-dive into Frameworks (*under construction*)
+
+* Week 8: Deeper-dive into Frameworks, and Agile project management methodology (*under construction*)
+
+* Weeks 9-10: Introduction to Retrieval Augmented Generation and the iloveconference.org source code
+
+* Weeks 11-16: Work on a real-world project
+
+* Weeks 17-20: Courses on fine-tuning LLMs and deploying websites
+
+* Weeks 21-26: Work on a real-world project
