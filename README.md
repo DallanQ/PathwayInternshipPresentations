@@ -1,8 +1,7 @@
 # PathwayInternshipPresentations
 Presentations for the Pathway Internships
 
-I will create prentation notebooks outlining what we will cover each week. 
-I'll try to create them at least a week ahead of time so people can go over them early if they want.
+Here are the prentation notebooks outlining what we will cover each week. 
  
 * Week 1: Install software, learn bash, get familiar with node and python
 
@@ -14,16 +13,14 @@ I'll try to create them at least a week ahead of time so people can go over them
 
 * Week 5: Continue courses and kata's to advance your skills in Front-end or Back-end development
 
-* Week 6: Introduction to Frameworks for Front-end or Back-end development (*under construction*)
+* Week 6: Introduction to Frameworks for Front-end or Back-end development
 
-* Week 7: Deep-dive into Frameworks (*under construction*)
+* Week 7: Deep-dive into Frameworks
 
-* Week 8: Deeper-dive into Frameworks, and Agile project management methodology (*under construction*)
+* Week 8: Deeper-dive into Frameworks and Agile project management methodology
 
-* Weeks 9-10: Introduction to Retrieval Augmented Generation and the iloveconference.org source code
+* Weeks 9-10: Introduction to the iloveconference.org source code
 
 * Weeks 11-16: Work on a real-world project
 
-* Weeks 17-20: Courses on fine-tuning LLMs and deploying websites
-
-* Weeks 21-26: Work on a real-world project
+* Weeks 17-26: To be decided
