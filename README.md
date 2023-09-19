@@ -13,14 +13,14 @@ Here are the prentation notebooks outlining what we will cover each week.
 
 * Week 5: Continue courses and kata's to advance your skills in Front-end or Back-end development
 
-* Week 6: Introduction to Frameworks for Front-end or Back-end development
+* Week 6: LLMs (back end) and Svelte (front end)
 
-* Week 7: Deep-dive into Frameworks
+* Week 7: Question-Answering team project (back end) and more Svelte (front end)
 
-* Week 8: Deeper-dive into Frameworks and Agile project management methodology
+* Week 8: LangChain (back end) and Sveltekit (front end)
 
-* Weeks 9-10: Introduction to the iloveconference.org source code
+* Week 9: More LangChain (back end) and personal Sveltekit project (front end)
 
-* Weeks 11-16: Work on a real-world project
+* Week 10: iloveconference.org source code, working together, agile project management, and team projects. 
 
-* Weeks 17-26: To be decided
+* Weeks 11+: Work on a real-world project
