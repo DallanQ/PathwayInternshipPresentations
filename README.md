@@ -19,7 +19,7 @@ Here are the prentation notebooks outlining what we will cover each week.
 
 * Week 8: LangChain (back end) and Sveltekit (front end)
 
-* Week 9: More LangChain (back end) and personal Sveltekit project (front end)
+* Week 9: More LangChain (back end) and Sveltekit (front end)
 
 * Week 10: iloveconference.org source code, working together, agile project management, and team projects. 
 
