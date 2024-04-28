@@ -1,0 +1,226 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "ffef0c6b-72c2-4ced-9f50-a72763881dd8",
+   "metadata": {
+    "editable": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Week 10 - GameNightGPT - part 1\n",
+    "\n",
+    "This is the start of a series of notebooks outlining how I'm creating GameNightGPT."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b6c57dfd-fa65-4b11-8af3-5318f5066e2f",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 1. Find a need that you can fill\n",
+    "\n",
+    "Find a problem that people have.\n",
+    "\n",
+    "> Many people that play board games have dozens of games on their shelf. \n",
+    "> When they choose a game to play, they may not have played that game for several months.\n",
+    "> But the rule books for the games are often 20-40 pages long,\n",
+    "> and when they have questions about how to play, they don't want to have to re-read the entire manual.\n",
+    "> \n",
+    "> They need something that will answer questions about how they should set up, play, and score the game."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e57f521f-9f15-4e13-b639-90511ae25d56",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 2. Find data\n",
+    "\n",
+    "Your next step is to find data that contains the information you need to fill the need.\n",
+    "\n",
+    "> I came up with a list of 10 board games I was interested in and found online rule books, forum posts, and tutorial videos."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f5910dd7-fbc4-476e-a35d-256edaeba15f",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 3. Find labeled data\n",
+    "\n",
+    "We need to have data that has been labeled with inputs and _ideal_ output to your system.\n",
+    "\n",
+    "There are two ways to label input data with ideal outputs:\n",
+    "- humans - best results, but can be time-consuming and expensive\n",
+    "- GPT4 - used more and more often to generate ideal outputs\n",
+    "\n",
+    "> Many questions along with human answers are contained in the forum posts.\n",
+    "> I used GPT4 to extract the question-answer pairs from the forum posts."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c8b7ef21-65f9-4795-b338-102f931c89f7",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 4. Gather and format data\n",
+    "\n",
+    "Gather the data and convert it to an easy-to-use format: plain text, markdown, json, or csv.\n",
+    "\n",
+    "> I downloaded the rule book PDF files and converted them to markdown format.\n",
+    "> I tried several PDF to markdown converters, finally settling on a custom converter based upon Unstructured.\n",
+    ">\n",
+    "> I also crawled the forum posts and converted them to markdown format.\n",
+    "> I then passed the markdown to GPT4 and asked it to extract the question-answer pairs as JSON.\n",
+    "> I ultimately stored the question-answer pairs in CSV files."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d4359ae-40d6-4443-9ce7-7c22a4da8bdd",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 5. Become one with the data\n",
+    "\n",
+    "Review your data thoroughly and carefully. Understand its strengths and weaknesses.\n",
+    "\n",
+    "> When I reviewed the markdown-formatted rule books and the question-answer pairs,\n",
+    "> I realized that there were a few mistakes made in the formatting and question-answer pair extraction."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef8325f8-ef40-46a0-887f-8833138937b3",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 6. Clean the data\n",
+    "\n",
+    "There is a saying \"Garbage In, Garbage Out\" (GIGO). \n",
+    "This saying is as true today as it was 30 years ago.\n",
+    "Every hour spent cleaning your data up-front will save you multiple hours of headaches trying to work around dirty data issues later on.\n",
+    "\n",
+    "> I've hired a number of people to review and correct the markdown-formatted rule books and question-answer pairs\n",
+    "> so the system had its best chance of success."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1da64b15-372f-48e8-8916-6dd5051e2333",
+   "metadata": {
+    "editable": true,
+    "jp-MarkdownHeadingCollapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Step 7. Create a proof of concept\n",
+    "\n",
+    "Create a proof-of-concept to verify your project idea will work.\n",
+    "You can (and probably should) do this before you spend a lot of time cleaning your data in the previous step.\n",
+    "The goal of the proof of concept is to make sure that you can get at least close to your ideal outputs given your inputs.\n",
+    "\n",
+    "> I spent as little time as possible feeding the rule book into an off-the-shelf question-answering system\n",
+    "> to see if the answers (outputs) to various questions (inputs) were at least close to what I wanted.\n",
+    ">\n",
+    "> I did this just using a simple notebook."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "94713638-3ef6-4c78-bb88-314461079a30",
+   "metadata": {
+    "editable": true,
+    "slideshow": {
+     "slide_type": "slide"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Questions?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1299150b-424c-4132-8e57-c11498df2fe5",
+   "metadata": {
+    "editable": true,
+    "slideshow": {
+     "slide_type": ""
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "PathwayInternshipPresentations",
+   "language": "python",
+   "name": "pathwayinternshippresentations"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
