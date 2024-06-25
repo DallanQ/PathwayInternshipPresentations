@@ -3,3 +3,6 @@
 .ipynb_checkpoints
 .env
 __pycache__
+.milvus*
+chromadb/
+*.db
