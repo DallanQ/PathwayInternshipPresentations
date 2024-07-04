@@ -23,7 +23,7 @@ openai==1.28.1
 optuna==3.6.1
 optuna-dashboard==0.15.1
 pandas==2.2.2
-pillow==10.2.0
+pillow==10.3.0
 plotly==5.22.0
 plotly-express==0.4.1
 python-dotenv==1.0.1
