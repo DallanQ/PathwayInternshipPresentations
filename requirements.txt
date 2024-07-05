@@ -17,6 +17,7 @@ llama-index-readers-file==0.1.23
 llama-index-vector-stores-chroma==0.1.9
 llama-index-vector-stores-milvus==0.1.20
 llama-index-vector-stores-qdrant==0.2.10
+markdownify==0.12.1
 matplotlib==3.8.4
 numpy==1.26.4
 openai==1.28.1
@@ -24,6 +25,7 @@ optuna==3.6.1
 optuna-dashboard==0.15.1
 pandas==2.2.2
 pillow==10.3.0
+playwright==1.45.0
 plotly==5.22.0
 plotly-express==0.4.1
 python-dotenv==1.0.1
